@@ -3,13 +3,13 @@ import React from "react";
 
 const Navbar = () => {
     return(
-        <nav className="navbar bg-dark navbar-expand-lg bg-secondary">
+        <nav className="navbar bg-secondary navbar-expand-lg bg-secondary">
   <div className="container-fluid">
     <div className="text-start">
     <p className="text-light h5">Start Bootstrap</p>
     </div>
     <div className="text-end">
-    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     </div>
